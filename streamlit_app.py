@@ -51,7 +51,7 @@ if "img_bytes" not in st.session_state:
 # 2) 모델 로드 (Google Drive)
 # ======================
 # secrets.toml에 넣어두면 편리합니다. 없으면 기본값 사용
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1GAq7O9GO590WH4t89e1DwbuwXOsbddB5")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1SN_x9sYb6JULopkgOoMEm0Q0nX1MsPY")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
